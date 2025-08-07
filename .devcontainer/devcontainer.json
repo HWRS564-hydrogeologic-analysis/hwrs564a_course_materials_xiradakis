@@ -2,7 +2,7 @@
 	"name": "HWRS564a Course Materials",
 	"image": "mcr.microsoft.com/devcontainers/python:3.11",
 	"features": {
-		"ghcr.io/astral-sh/uv/uv:latest": {}
+		"ghcr.io/va-h/devcontainers-features/uv:1": {}
 	},
 	"postCreateCommand": "uv sync",
 	"customizations": {
