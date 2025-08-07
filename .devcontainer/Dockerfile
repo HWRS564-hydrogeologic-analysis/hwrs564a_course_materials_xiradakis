@@ -1,5 +1,3 @@
-#FROM arbennett/base-geoscience
-FROM ghcr.io/astral-sh/uv:latest
 FROM jupyter/docker-stacks-foundation
 
 # Install code-server
@@ -17,6 +15,7 @@ ARG PRIV_CMDS='ALL'
 
 # Install vscode
 RUN curl -fsSL https://code-server.dev/install.sh | sh
+RUN curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Set the working directory and user
 USER jovyan
