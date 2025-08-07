@@ -1,5 +1,6 @@
 #FROM arbennett/base-geoscience
 FROM ghcr.io/astral-sh/uv:latest
+FROM jupyter/docker-stacks-foundation
 
 # Install code-server
 USER root
