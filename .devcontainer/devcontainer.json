@@ -1,0 +1,8 @@
+{
+	"name": "HWRS564a",
+	"build": { 
+		"context": "..",
+		"dockerfile": "Dockerfile",
+	},
+	"workspaceFolder": "/workspaces",
+}
