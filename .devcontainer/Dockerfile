@@ -9,7 +9,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 # Add sudo to jovyan user
 RUN apt update && \
-    apt install -y sudo && \
+    apt install -y sudo curl && \
     apt clean && \
     rm -rf /var/lib/apt/lists/*
 ARG LOCAL_USER=jovyan
