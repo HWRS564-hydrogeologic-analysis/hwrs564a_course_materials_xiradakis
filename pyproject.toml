@@ -16,5 +16,6 @@ dependencies = [
     "pandas>=2.3.1",
     "pooch>=1.8.2",
     "tqdm>=4.67.1",
+    "wqchartpy>=0.1.10",
     "xarray>=2025.7.1",
 ]
