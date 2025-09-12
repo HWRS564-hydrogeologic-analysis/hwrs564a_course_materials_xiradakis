@@ -1,9 +1,9 @@
 #!/bin/bash
 set -e
 cd hwrs564a_course_materials
-uv sync
 mv .venv ..
 cd ..
+uv sync
 mkdir -p ./modflow
 source ./.venv/bin/activate
 python -c "from flopy.utils import get_modflow; get_modflow('./modflow')"
