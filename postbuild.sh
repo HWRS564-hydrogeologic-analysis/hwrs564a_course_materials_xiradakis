@@ -1,7 +1,23 @@
 #!/bin/bash
 set -e
-dir=$(find . -maxdepth 1 -type d -name "hwrs564a_cours_materials_*" | head -n 1)
-cd $dir
+
+echo "------------------------------------------------"
+echo `pwd`
+echo "------------------------------------------------"
+
+cd_prefix="./hwrs564a_course_*"
+dirs=( $cd_prefix )
+if [ ${#dirs[@]} -eq 1 ] && [ -d "${dirs[0]}" ]; then
+    cd "${dirs[0]}"
+else
+    echo "Error: expected exactly one directory matching $cd_prefix, found ${#dirs[@]}"
+fi
+
+
+echo "------------------------------------------------"
+echo `pwd`
+echo "------------------------------------------------"
+
 uv venv
 uv sync
 source ./.venv/bin/activate
