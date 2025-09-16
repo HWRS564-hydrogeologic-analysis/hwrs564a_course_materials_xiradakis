@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
-cd hwrs564a_course_materials
+dir=$(find . -maxdepth 1 -type d -name "hwrs564a_cours_materials_*" | head -n 1)
+cd $dir
 uv venv
 uv sync
 source ./.venv/bin/activate
