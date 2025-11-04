@@ -1,4 +1,4 @@
 ,Well,Ca,Mg,Na,K,Cl,HCO3,SO4,Barium,pH,Temp (°C),Label,Color,Marker,Size,Alpha,Sample
-0,Upgradient Well,40,8.1,37,1.9,13,200,11,0,7.2,31.8,#1,red,o,0.0,30,0.8,1
-1,Downgradient Well,40,18,140,2.7,37,370,72,0,7.9,18.6,#2,blue,s,0.0,30,0.8,2
-2,Well Near Gila River,650,97,670,11,1400,190,1600,0.043,7.7,21.4,#3,brown,x,30,0.8,3
+,Upgradient Well, 1,40,8.1,37,1.9,13,200,11,0,7.2,31.8,#1,red,o,0.0,30,0.8,1
+,Downgradient Well, 2,40,18,140,2.7,37,370,72,0,7.9,18.6,#2,blue,s,0.0,30,0.8,2
+,Well Near Gila River, 3,650,97,670,11,1400,190,1600,0.043,7.7,21.4,#3,brown,x,30,0.8,3
